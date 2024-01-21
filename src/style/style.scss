@@ -58,3 +58,25 @@ header {
         }
     }
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+
+    .links {
+        display: inline-block;
+        padding: 6px;
+
+        .links__icon {
+            padding: 0 4px;
+        }
+
+        .links__icon img {
+            height: 32px;
+        }
+    }
+}

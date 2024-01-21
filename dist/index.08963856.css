@@ -61,4 +61,26 @@ header .menu .menu__link:hover:after, header .menu .menu__link:focus:after {
   transform: scaleX(1);
 }
 
+footer {
+  justify-content: end;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+footer .links {
+  padding: 6px;
+  display: inline-block;
+}
+
+footer .links .links__icon {
+  padding: 0 4px;
+}
+
+footer .links .links__icon img {
+  height: 32px;
+}
+
 /*# sourceMappingURL=index.08963856.css.map */
