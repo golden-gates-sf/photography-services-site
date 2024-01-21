@@ -40,6 +40,7 @@ header {
         .menu__link:hover,
         .menu__link:focus {
             color: #408f75;
+            transition: all 0.25s ease-in-out;
         }
 
         .menu__link::after {
