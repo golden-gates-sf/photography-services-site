@@ -1,12 +1,12 @@
 {
   "name": "photography_services_website",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/golden-gates-sf/photography-services-site.git",
   "author": "golden-gates-sf <redchenko.milana@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build_docs": "parcel build src/index.html --dist-dir docs"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.11.0",
