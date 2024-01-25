@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,YAAY,SAAS,aAAa,CAAC;AAEzC,UAAU,gBAAgB,CAAC,SAAS;IAChC,UAAU,MAAM;AACpB","sources":["src/index.js"],"sourcesContent":["const tempModal = document.querySelector(\".temp-modal-window\");\r\n\r\ntempModal.addEventListener(\"click\", () => {\r\n    tempModal.remove();\r\n})\r\n"],"names":[],"version":3,"file":"index.4303eaac.js.map"}

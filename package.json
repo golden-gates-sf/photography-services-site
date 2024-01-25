@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build_docs": "parcel build src/index.html --dist-dir docs"
+    "build_docs": "parcel build src/index.html --dist-dir docs --public-url ./ --no-optimize"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.11.0",
