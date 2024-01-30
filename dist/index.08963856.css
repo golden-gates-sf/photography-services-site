@@ -28,11 +28,13 @@ header {
 }
 
 header .header__main-page-link {
-  padding: 20px 6px;
+  letter-spacing: 3px;
+  padding: 30px 6px;
   font-size: 2rem;
 }
 
 header .menu {
+  letter-spacing: 2px;
   flex-flow: wrap;
   gap: 10px;
   padding-bottom: 6px;
@@ -47,7 +49,7 @@ header .menu .menu__link {
   display: inline-block;
 }
 
-header .menu .menu__link:hover, header .menu .menu__link:focus {
+header .menu .menu__link:hover, header .menu .menu__link:active {
   color: #408f75;
   transition: all .25s ease-in-out;
 }
@@ -61,7 +63,7 @@ header .menu .menu__link:after {
   transform: scaleX(0);
 }
 
-header .menu .menu__link:hover:after, header .menu .menu__link:focus:after {
+header .menu .menu__link:hover:after, header .menu .menu__link:active:after {
   transform: scaleX(1);
 }
 
@@ -139,10 +141,16 @@ footer .links {
 
 footer .links .links__icon {
   padding: 0 4px;
+  transition: transform .4s ease-in-out;
+  transform: scale(1);
 }
 
 footer .links .links__icon img {
   height: 32px;
+}
+
+footer .links .links__icon:hover {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=index.08963856.css.map */
