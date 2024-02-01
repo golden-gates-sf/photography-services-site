@@ -1,7 +1,7 @@
 @font-face {
   font-family: alethia_proregular;
-  src: url("alethiapro-regular-webfont.d1aa3af7.eot");
-  src: url("alethiapro-regular-webfont.d1aa3af7.eot#iefix") format("embedded-opentype"), url("alethiapro-regular-webfont.84a0096f.woff2") format("woff2"), url("alethiapro-regular-webfont.0057092f.woff") format("woff"), url("alethiapro-regular-webfont.35386db3.ttf") format("truetype"), url("alethiapro-regular-webfont.ac23a61a.svg#alethia_proregular") format("svg");
+  src: url("alethiapro-regular-webfont.d7e225ff.eot");
+  src: url("alethiapro-regular-webfont.d7e225ff.eot#iefix") format("embedded-opentype"), url("alethiapro-regular-webfont.c6305759.woff2") format("woff2"), url("alethiapro-regular-webfont.28f8960c.woff") format("woff"), url("alethiapro-regular-webfont.33a3fdb3.ttf") format("truetype"), url("alethiapro-regular-webfont.cdb0275b.svg#alethia_proregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -159,4 +159,4 @@ footer .links .links__icon img:hover {
   transform: scale(1.5);
 }
 
-/*# sourceMappingURL=index.08963856.css.map */
+/*# sourceMappingURL=index.b26392b4.css.map */
