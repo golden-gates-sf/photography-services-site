@@ -141,15 +141,15 @@ footer {
 
         .links__icon {
             padding: 0 4px;
-            transform: scale(1);
-            transition: transform 0.4s ease-in-out;
         }
 
         .links__icon img {
             height: 32px;
+            transform: scale(1);
+            transition: transform 0.25s ease-in-out;
         }
         
-        .links__icon:hover {
+        .links__icon img:hover {
             transform: scale(1.5);
         }
     }
