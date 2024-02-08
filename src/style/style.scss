@@ -1,5 +1,7 @@
 @import "./Webfonts/alethiapro_regular_macroman/stylesheet.css";
 
+$photo-padding: 14px;
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +70,7 @@ header {
 main {
     .photo-container {
 
-        padding: 14px;
+        padding: $photo-padding;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
@@ -76,7 +78,7 @@ main {
         .photo-container__column {
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: $photo-padding;
         }
 
         .photo-container__item {  
