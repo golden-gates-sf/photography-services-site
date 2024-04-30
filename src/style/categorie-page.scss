@@ -11,7 +11,8 @@ main {
         height: 13vh;
         
         .categorie-text-container { 
-          font-size: 1.3rem;
+          font-size: calc(.5rem + 1vw);
+          letter-spacing: 4px;
           color: rgba(56, 55, 55, 0.814);
           text-transform: uppercase;
       }

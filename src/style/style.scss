@@ -23,7 +23,7 @@ header {
     align-items: center;
 
     .header__main-page-link {
-        font-size: 2rem;
+        font-size: calc(.8rem + 2vw);
         padding: 30px 6px;
         letter-spacing: 3px;
     }
@@ -39,7 +39,7 @@ header {
 
         .menu__link {
             padding: 4px 20px;
-            font-size: 1.2rem;  
+            font-size: calc(.7rem + .3vw);  
             text-transform: uppercase;
             display: inline-block;
         }
@@ -102,14 +102,14 @@ main {
 
                 p {
                     text-align: center;
-                    font-size: 3vw;
+                    font-size: calc(.2rem + 2.2vw);
                     letter-spacing: 1px;
                     transform: scaleX(0.1);
                     transition: all 0.9s ease;
                 }
 
                 .collection-year {
-                    font-size: 1.4vw;
+                    font-size: calc(.3rem + 1vw);
                     color: #151e3fad;
                 }
             }
@@ -152,13 +152,13 @@ footer {
         }
 
         .links__icon img {
-            height: 32px;
+            height: calc(6px + 3.7vh);
             transform: scale(1);
             transition: transform 0.25s ease-in-out;
         }
         
         .links__icon img:hover {
-            transform: scale(1.5);
+            transform: scale(1.3);
         }
     }
 
